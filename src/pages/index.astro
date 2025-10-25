@@ -4,12 +4,30 @@ import Experiments from "./experiments.astro";
 ---
 
 <Layout>
-  <section class="relative min-h-screen flex flex-col justify-center items-center text-center px-6 md:px-12 bg-gradient-to-b from-[#0a0a0a] via-[#0d0d14] to-[#111122]">
-    
-    <!-- Glow ambiental -->
-    <div class="absolute inset-0 pointer-events-none">
-      <div class="absolute -top-40 w-[500px] h-[500px] bg-[#7b5cff]/10 blur-[200px] rounded-full animate-pulse"></div>
-      <div class="absolute -bottom-40  w-[600px] h-[600px] bg-[#9a85ff]/10 blur-[250px] rounded-full animate-pulse"></div>
+  <section
+    class="relative min-h-screen flex flex-col justify-center items-center text-center px-6 md:px-12 bg-gradient-to-b from-[#0a0a0a] via-[#0d0d14] to-[#111122]"
+  >
+    <!-- Glow ambiental (mobile-first optimizado) -->
+    <div class="absolute inset-0 pointer-events-none overflow-hidden">
+      <!-- Glow superior -->
+      <div
+        class="absolute -top-32 left-1/2 -translate-x-1/2
+           w-[250px] h-[250px] bg-[#7b5cff]/20
+           blur-[100px] rounded-full animate-pulse
+           sm:w-[350px] sm:h-[350px] sm:blur-[150px]
+           md:w-[500px] md:h-[500px] md:blur-[200px]"
+      >
+      </div>
+
+      <!-- Glow inferior -->
+      <div
+        class="absolute -bottom-32 left-1/2 -translate-x-1/2
+           w-[300px] h-[300px] bg-[#9a85ff]/20
+           blur-[120px] rounded-full animate-pulse
+           sm:w-[450px] sm:h-[450px] sm:blur-[180px]
+           md:w-[600px] md:h-[600px] md:blur-[250px]"
+      >
+      </div>
     </div>
 
     <!-- Contenido -->
@@ -18,10 +36,15 @@ import Experiments from "./experiments.astro";
         Exploraciones digitales 🌌
       </h1>
       <p class="text-[#a1a1a1] text-lg md:text-xl mb-8">
-        Un espacio donde las ideas despiertan, se prueban y evolucionan.  
-        Descubre prototipos, micro-demos y experimentos que combinan <span class="text-[#7b5cff] font-semibold">creatividad</span> y <span class="text-[#7b5cff] font-semibold">tecnología</span>.
+        Un espacio donde las ideas despiertan, se prueban y evolucionan.
+        Descubre prototipos, micro-demos y experimentos que combinan <span
+          class="text-[#7b5cff] font-semibold">creatividad</span
+        > y <span class="text-[#7b5cff] font-semibold">tecnología</span>.
       </p>
-      <a href="#experiments" class="inline-block bg-[#7b5cff] hover:bg-[#9a85ff] text-[#0a0a0a] font-semibold px-8 py-3 rounded-full transition-colors duration-300">
+      <a
+        href="#experiments"
+        class="inline-block bg-[#7b5cff] hover:bg-[#9a85ff] text-[#0a0a0a] font-semibold px-8 py-3 rounded-full transition-colors duration-300"
+      >
         Explorar experimentos →
       </a>
     </div>
