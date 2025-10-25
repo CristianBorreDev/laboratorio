@@ -18,5 +18,15 @@
     "image": "/images/card-visual.png",
     "type": "Diseño",
     "recent": true
+  },
+  {
+    "title": "Charts Pack",
+    "description": "Visualización de métricas y datos clave mediante gráficos interactivos y coherentes. Base estética para dashboards y sistemas analíticos dentro de Zentrix.",
+    "stack": ["Astro", "React", "Recharts", "TailwindCSS", "Framer Motion"],
+    "demoLink": "https://charts-pack-cristian-labs.vercel.app",
+    "githubLink": "https://github.com/CristianBorreDev/charts-pack",
+    "image": "/images/charts-pack.png",
+    "type": "Diseño / Funcionalidad",
+    "recent": false
   }
 ]
