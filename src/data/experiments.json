@@ -1,1 +1,12 @@
-[]
+[
+    {
+        "title": "Card Metrics",
+        "description": "Exploración visual de métricas y KPIs en entorno oscuro. Base estética para futuros sistemas de interfaz dentro de Zentrix.",
+        "stack": ["Astro", "TailwindCSS", "CSS Transitions"],
+        "demoLink": "https://card-metrics-cristian-labs.vercel.app",
+        "githubLink": "https://github.com/CristianBorreDev/card-metrics",
+        "image": "/src/assets/images/card-metrics.png",
+        "type": "Diseño",
+        "recent": true
+    }
+]
