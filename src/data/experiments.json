@@ -28,5 +28,15 @@
     "image": "/images/charts-pack.png",
     "type": "Diseño / Funcionalidad",
     "recent": false
+  },
+  {
+    "title": "Dashboard UI",
+    "description": "Centro visual del ecosistema Zentrix. Integra módulos experimentales del Laboratorio Visual en una sola interfaz coherente y rítmica.",
+    "stack": ["Astro", "TailwindCSS", "Motion minimal"],
+    "demoLink": "https://dashboard-ui-cristian-labs.vercel.app",
+    "githubLink": "https://github.com/CristianBorreDev/dashboard-ui",
+    "image": "/images/dashboard-ui.png",
+    "type": "Estructura",
+    "recent": false
   }
 ]
