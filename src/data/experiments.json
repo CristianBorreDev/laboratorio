@@ -47,6 +47,17 @@
     "githubLink": "https://github.com/CristianBorreDev/crud-table",
     "image": "/images/crud-table.png",
     "type": "Funcionalidad",
+    "recent": false
+  },
+  {
+    "title": "CRUD Kanban",
+    "description": "Módulo experimental de gestión de tareas con enfoque rítmico. Crear, editar, eliminar y reordenar tareas se convierte en una experiencia fluida y coherente.",
+    "stack": ["React", "TailwindCSS", "Zustand", "@dnd-kit", "Framer Motion", "SweetAlert2"],
+    "demoLink": "https://crud-kanban-cristian-labs.vercel.app",
+    "githubLink": "https://github.com/CristianBorreDev/crud-kanban",
+    "image": "/images/crud-kanban.png",
+    "type": "Funcionalidad / Interacción",
     "recent": true
   }
+
 ]
