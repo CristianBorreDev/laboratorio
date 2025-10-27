@@ -38,5 +38,15 @@
     "image": "/images/dashboard-ui.png",
     "type": "Estructura",
     "recent": false
+  },
+  {
+    "title": "CRUD Table",
+    "description": "Exploración funcional sobre estructuras de datos dinámicas. Un sistema donde la interacción y el orden visual se encuentran con propósito.",
+    "stack": ["React", "TailwindCSS", "Zustand", "Framer Motion", "SweetAlert2"],
+    "demoLink": "https://crud-table-cristian-labs.vercel.app",
+    "githubLink": "https://github.com/CristianBorreDev/crud-table",
+    "image": "/images/crud-table.png",
+    "type": "Funcionalidad",
+    "recent": true
   }
 ]
