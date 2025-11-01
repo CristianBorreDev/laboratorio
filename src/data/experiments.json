@@ -2,7 +2,11 @@
   {
     "title": "Card Metrics",
     "description": "Exploración visual de métricas y KPIs en entorno oscuro. Base estética para futuros sistemas de interfaz dentro de Zentrix.",
-    "stack": ["Astro", "TailwindCSS", "CSS Transitions"],
+    "stack": [
+      "Astro",
+      "TailwindCSS",
+      "CSS Transitions"
+    ],
     "demoLink": "https://card-metrics-cristian-labs.vercel.app",
     "githubLink": "https://github.com/CristianBorreDev/card-metrics",
     "image": "/images/card-metrics.png",
@@ -12,7 +16,11 @@
   {
     "title": "Card Visual",
     "description": "Exploración de tarjetas visuales con imagen y texto. Base estética para galerías y presentaciones dentro de Zentrix.",
-    "stack": ["Astro", "TailwindCSS", "CSS Transitions"],
+    "stack": [
+      "Astro",
+      "TailwindCSS",
+      "CSS Transitions"
+    ],
     "demoLink": "https://card-visual-cristian-labs.vercel.app",
     "githubLink": "https://github.com/CristianBorreDev/card-visual",
     "image": "/images/card-visual.png",
@@ -22,7 +30,13 @@
   {
     "title": "Charts Pack",
     "description": "Visualización de métricas y datos clave mediante gráficos interactivos y coherentes. Base estética para dashboards y sistemas analíticos dentro de Zentrix.",
-    "stack": ["Astro", "React", "Recharts", "TailwindCSS", "Framer Motion"],
+    "stack": [
+      "Astro",
+      "React",
+      "Recharts",
+      "TailwindCSS",
+      "Framer Motion"
+    ],
     "demoLink": "https://charts-pack-cristian-labs.vercel.app",
     "githubLink": "https://github.com/CristianBorreDev/charts-pack",
     "image": "/images/charts-pack.png",
@@ -32,7 +46,11 @@
   {
     "title": "Dashboard UI",
     "description": "Centro visual del ecosistema Zentrix. Integra módulos experimentales del Laboratorio Visual en una sola interfaz coherente y rítmica.",
-    "stack": ["Astro", "TailwindCSS", "Motion minimal"],
+    "stack": [
+      "Astro",
+      "TailwindCSS",
+      "Motion minimal"
+    ],
     "demoLink": "https://dashboard-ui-cristian-labs.vercel.app",
     "githubLink": "https://github.com/CristianBorreDev/dashboard-ui",
     "image": "/images/dashboard-ui.png",
@@ -42,7 +60,13 @@
   {
     "title": "CRUD Table",
     "description": "Exploración funcional sobre estructuras de datos dinámicas. Un sistema donde la interacción y el orden visual se encuentran con propósito.",
-    "stack": ["React", "TailwindCSS", "Zustand", "Framer Motion", "SweetAlert2"],
+    "stack": [
+      "React",
+      "TailwindCSS",
+      "Zustand",
+      "Framer Motion",
+      "SweetAlert2"
+    ],
     "demoLink": "https://crud-table-cristian-labs.vercel.app",
     "githubLink": "https://github.com/CristianBorreDev/crud-table",
     "image": "/images/crud-table.png",
@@ -52,7 +76,14 @@
   {
     "title": "CRUD Kanban",
     "description": "Módulo experimental de gestión de tareas con enfoque rítmico. Crear, editar, eliminar y reordenar tareas se convierte en una experiencia fluida y coherente.",
-    "stack": ["React", "TailwindCSS", "Zustand", "@dnd-kit", "Framer Motion", "SweetAlert2"],
+    "stack": [
+      "React",
+      "TailwindCSS",
+      "Zustand",
+      "@dnd-kit",
+      "Framer Motion",
+      "SweetAlert2"
+    ],
     "demoLink": "https://crud-kanban-cristian-labs.vercel.app",
     "githubLink": "https://github.com/CristianBorreDev/crud-kanban",
     "image": "/images/crud-kanban.png",
@@ -62,12 +93,37 @@
   {
     "title": "CRUD Agenda",
     "description": "Agenda visual y fluida para gestionar citas y eventos. Crear, editar, eliminar y aplazar eventos con microinteracciones y persistencia local.",
-    "stack": ["React", "TailwindCSS", "Zustand", "Framer Motion", "date-fns", "react-datepicker", "SweetAlert2", "Lucide-react", "LocalStorage"],
+    "stack": [
+      "React",
+      "TailwindCSS",
+      "Zustand",
+      "Framer Motion",
+      "date-fns",
+      "react-datepicker",
+      "SweetAlert2",
+      "Lucide-react",
+      "LocalStorage"
+    ],
     "demoLink": "https://crud-agenda-cristian-labs.vercel.app",
     "githubLink": "https://github.com/CristianBorreDev/crud-agenda",
     "image": "/images/crud-agenda.png",
     "type": "Funcionalidad / Interacción",
     "recent": false
+  },
+  {
+    "title": "CRUD Notes",
+    "description": "Sistema visual y funcional para capturar ideas y pensamientos en un entorno oscuro y minimalista. Combina la simplicidad del flujo local con la intención del diseño emocional.",
+    "stack": [
+      "React",
+      "TailwindCSS",
+      "Zustand",
+      "Framer Motion",
+      "LocalStorage"
+    ],
+    "demoLink": "https://crud-notes-cristian-labs.vercel.app",
+    "githubLink": "https://github.com/CristianBorreDev/crud-notes",
+    "image": "/images/crud-notes.png",
+    "type": "Funcionalidad / Interacción",
+    "recent": true
   }
-
 ]
