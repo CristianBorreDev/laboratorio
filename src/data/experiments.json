@@ -58,6 +58,16 @@
     "image": "/images/crud-kanban.png",
     "type": "Funcionalidad / Interacción",
     "recent": true
+  },
+  {
+    "title": "CRUD Agenda",
+    "description": "Agenda visual y fluida para gestionar citas y eventos. Crear, editar, eliminar y aplazar eventos con microinteracciones y persistencia local.",
+    "stack": ["React", "TailwindCSS", "Zustand", "Framer Motion", "date-fns", "react-datepicker", "SweetAlert2", "Lucide-react", "LocalStorage"],
+    "demoLink": "https://crud-agenda-cristian-labs.vercel.app",
+    "githubLink": "https://github.com/CristianBorreDev/crud-agenda",
+    "image": "/images/crud-agenda.png",
+    "type": "Funcionalidad / Interacción",
+    "recent": false
   }
 
 ]
