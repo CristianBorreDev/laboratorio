@@ -20,7 +20,7 @@ const experimentsData = experiments.length > 0 ? experiments : []
       </h2>
 
       <!-- Grid de prototipos -->
-      <div class="grid gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4" id="projects-grid">
+      <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3" id="projects-grid">
         {experimentsData.length > 0 ? (
             experimentsData.map((exp: any) => (
                 <LabCard {...exp} />
