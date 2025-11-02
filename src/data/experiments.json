@@ -125,5 +125,25 @@
     "image": "/images/crud-notes.png",
     "type": "Funcionalidad / Interacción",
     "recent": false
+  },
+  {
+    "title": "Weather Visual",
+    "description": "Visualizador meteorológico inmersivo que transforma datos del clima en atmósferas visuales dinámicas. Permite buscar y comparar ciudades con persistencia local y estética rítmica Zentrix.",
+    "stack": [
+      "React",
+      "TypeScript",
+      "TailwindCSS",
+      "Zustand",
+      "Framer Motion",
+      "Recharts",
+      "React Leaflet",
+      "SweetAlert2",
+      "LocalStorage"
+    ],
+    "demoLink": "https://weather-visual-cristian-labs.vercel.app",
+    "githubLink": "https://github.com/CristianBorreDev/weather-visual",
+    "image": "/images/weather-visual.png",
+    "type": "Integración / Visualización",
+    "recent": true
   }
 ]
