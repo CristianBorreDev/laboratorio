@@ -145,5 +145,22 @@
     "image": "/images/weather-visual.png",
     "type": "Integración / Visualización",
     "recent": true
+  },
+  {
+    "title": "Crypto Dashboard",
+    "description": "Dashboard interactivo de criptomonedas que muestra precios, favoritos y gráficos históricos. Permite explorar, filtrar y visualizar datos de CoinGecko en tiempo real con experiencia mobile-first.",
+    "stack": [
+      "React",
+      "TypeScript",
+      "TailwindCSS",
+      "Zustand",
+      "Recharts",
+      "Vite"
+    ],
+    "demoLink": "https://crypto-dashboard-cristian-labs.vercel.app",
+    "githubLink": "https://github.com/CristianBorreDev/crypto-dashboard",
+    "image": "/images/crypto-dashboard.png",
+    "type": "Funcionalidad / Visualización",
+    "recent": false
   }
 ]
